@@ -1,5 +1,5 @@
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+  font-family: monsterat;
     margin: 0;
     padding: 0;
     background-color: #00BF66;
@@ -97,265 +97,177 @@ nav a {
 
 /* :-------end of navbar-----; */
 
-/* .retro-wallpaper{
-  width: 100%;
-  height: 100%;
-  background-image: url("assets/images/backgrounds/Retro\ Rides.png");
-  background-position:center; 
-  background-repeat: no-repeat;
+.aboutFirst{
+  /* background-color: #f0f0f0; */
+  width: 100vw;
+  height: 110vh;
+  display: flex;
+  background-image: url(assets/images/new/Retro\ Rides\ \(1\).png);
   background-size: cover;
-  z-index: -1;
-} */
-
-.work {
-  display: flex;
-  width: 100%;
-  height: 70vh;
-  
-}
-
-.work .work-content{
-  width: 100%;
-  font-size: 2rem;
-  padding: 15px;
-  margin-top: 50px;
-  color: white;
-}
-
-
-.work-second {
-  display: flex;
-  width: 100%;
-  height: 120vh;
-  justify-content: center;
-  position: relative;
-}
-
-.work-second .work-second-content img {
-  position: absolute;
-  width: 100%;
-  height: 650px;
-  top: 0;
-  left: 0;
-  object-fit: cover; /* ensure image coverc the entire container */
-  z-index: -1; /* place the image behind the .work-box class */
-  
-}
-
-.work-second .work-box{
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), #00BF66); /* White to green gradient */
-  position: absolute;
-  width: 710px;
-  height: 30%;
-  z-index: 1; /* place the work-box class above the image */
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-bottom: 0px;
-  padding: 10px 30px 10px 30px;
-  text-align: center;
-  color: white;
-}
-
-.work-second .work-box h2 {
-  font-size: 2rem;
+  background-position: center;
+  background-repeat: no-repeat;   
   align-items: center;
 }
 
-.card-container{
-  /* margin-top: 40px; */
-  
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin:50px auto 0 auto;
-  width: calc(100%-100px);
-  gap: 20px;
-  height: 125vh;
-  /* width: 100%; */
-  padding: 0px 0px 80px 0px;
+.aF-content {
+  width: 100%;  
+  color: white;
+  font-size: 5rem;
+  p { 
+    margin-left: 250px;
+  }
 }
 
-.card{
-  width: 30%;
-  min-height: 300px;
-  margin-bottom: 20px;
-  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
-  /* background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), #00BF66); White to green gradient */
-  background: transparent;
-  padding: 10px;
-  border-radius: 5px;
+.aboutSecond{
+  background-color: rgba(255, 255, 255, 0.117);
+  margin: 10px auto 0 auto;
+  display: flex;
+  width: 90%;
+  height: 100vh;
+  align-items: center;
+  justify-content:space-between;
   overflow: hidden;
+  /* padding: 50px 50px 50px 50px; */
 }
 
-.card:hover{
-  transition: transform 0.2s ease;
-  transform: translateY(-10px);
-  box-shadow: 0 10px 15px rgba(47, 44, 44, 0.8);
-  p{
-    font-size: 2rem;
-    transition: transform 3s ease;
-    background-color: rgba(255, 255, 255, 0.164);
-    border-radius: 25px;
-  }
-}
-
-.card-content{
-  position: relative;
-  img {
-    height: auto;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 5px;
-  }
-}
-
-.text-container {
-  position: absolute;
-  bottom: 20px;
-  left: 0;
-  right: 0;
-  margin: 0 auto; 
+.aS-content{
+  /* max-width: 800px; */
   padding: 10px;
+  width: 70%;
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 5px;
-  text-align: center; /* Center text within the text container */
-  p{
-    font-size: 1.5rem;
-  }
-  #cube{
-    font-size: 1rem;
-  }
-}
-
-.hr-last{
-  display: flex;
-  flex-direction: column;
-  height: 22vh;
-  width: 100%;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+  font-size: 2.5rem;
   
-  .hr-line {
-    height: 3px;
-    width: 70%;
-    background-color: black;
-    margin-bottom: 20px;
-  }
-  .hr-word{
-    color: white;
-    font-size: 1.25rem;
-    font-family:serif;
+}
+
+.aS-button{
+  
+  width: 30%;
+  padding: 10px;
+  
+}
+
+.aS-button button{
+  width: 400px;
+  color: white;
+  border-radius: 25px;
+  background-color: black;
+  height: 3rem;
+  font-size: 2rem;
+  outline: 1px solid white;
+}
+
+.one{
+  display: flex;
+  width: 100%;    
+  height: 70vh;
+  justify-content: space-between;
+  padding: 80px 0;
+  gap: 10px;
+}
+
+.one .one-content{
+  padding: 0px 0px 0px 20px;
+  width: 70%;
+  /* max-width: 50px 0px; */
+  height: 70vh;
+  color: white;
+  font-size: 2rem;
+  /* background-color: yellow; */
+}
+
+.one .one-image{
+
+  width: 30%;
+  height: 70vh;
+  /* margin-left: 20px; */
+  /* background-color: aquamarine; */
+  img {
+      width: 90%;
+      height: 70vh;
   }
 }
 
-
-.work-footer {
+.footer-aboutUs{
   display: flex;
   width: 100%;
+  height: 60vh;
   background-color: black;
-  height: 70vh;
-  justify-content: center;
-  align-items: center;
+  padding: 10px 0px 0px 10px;
   flex-direction: column;
-  .work-footerContent{
-    font-size: 2rem ;
-    color: white;
-  }
-  .work-footer{
-    color: white;
-  }
+  justify-content: center;
+  /* align-items: flex-start; */
+  align-items: center;
 }
 
-@media screen and (max-width:600px) {
-  .work {
-    display: flex;
-    width: 90vw;
-    height: 70vh;
-    margin: 0 auto;
-  }
-  .work .work-content{
-    width: 100%;
-    font-size: 1rem;
-    /* padding: 15px; */
-    margin-top: 50px;
-    color: white;
-  }
-  .work-second {
-    display: flex;
-    width: 90vw;
-    margin: 0 auto;
-    height: 120vh;
-    justify-content: center;
-    position: relative;
-  }
-  .work-second .work-second-content img {
-    position: absolute;
-    width: 100%;
-    height: 650px;
-    top: 0;
-    left: 0;
-    object-fit: cover; /* ensure image coverc the entire container */
-    z-index: -1; /* place the image behind the .work-box class */
-  }
-  .work-second .work-box{
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), #00BF66); /* White to green gradient */
-    position: absolute;
-    width: 450px;
-    height: 30%;
-    z-index: 1; /* place the work-box class above the image */
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-bottom: 0px;
-    /* padding: 10px 30px 10px 30px; */
-    text-align: center;
-    color: white;
-  }
+.footer-aboutUs .footer-content{
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 20px;
+}
 
-  .card-container{
-    /* margin-top: 40px; */
-    
+.footer-aboutUs .copyright{
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  .aboutFirst{
+    background-image: url("assets/images/new/Retro\ Rides\ \(1080\ x\ 1920\ px\)\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 110vh;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin:50px auto 0 auto;
-    width: calc(100%-100px);
-    gap: 20px;
+    align-items: center;
+  }
+  .aF-content{
+    width: 100%;  
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 50px;
+    /* padding: 50px; */
+  }
+  .aF-content p{
+    margin-left: 0;
+    text-align: left;
+  }
+  .aboutSecond{
+    background-color: rgba(255, 255, 255, 0.117);
+    /* margin: 10px auto 0 auto; */
+    display: flex;
+    width: 90%;
     height: 100vh;
-    /* width: 100%; */
-    /* padding: 0px 0px 80px 0px; */
-  }
-
-  .card{
-    width: 30%;
-    min-height: 100px;
-    margin-bottom: 20px;
-    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
-    /* background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), #00BF66); White to green gradient */
-    background: transparent;
-    padding: 10px;
-    border-radius: 5px;
+    align-items: center;
+    justify-content:space-between;
     overflow: hidden;
+    /* padding: 50px 50px 50px 50px; */
   }
-
-.work-footer {
-  margin-top: 100px;
-  display: flex;
-  width: 100%;
-  background-color: black;
-  height: 70vh;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  .work-footerContent{
-    font-size: 2rem ;
+  .aS-content{
+    /* max-width: 800px; */
+    padding: 10px;
+    width: 70%;
     color: white;
+    font-size: 1.5rem;
+    
   }
-  .work-footer{
+  .aS-button{
+  
+    width: 30%;
+    /* padding: 10px; */
+    
+  }
+  
+  .aS-button button{
+    width: 100px;
     color: white;
-    }
+    border-radius: 25px;
+    background-color: black;
+    height: 2.5rem;
+    font-size: 1rem;
+    outline: 1px solid white;
   }
 }
