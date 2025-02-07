@@ -86,7 +86,7 @@ gsap.timeline({
         pin: true,
         scrub: 1,
         start: "top 10%",
-        markers: true,
+        //markers: true,
         end: `+=${amountToScroll1}`,
         invalidateOnRefresh: true,
         refreshPriority: 1
